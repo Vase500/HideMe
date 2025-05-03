@@ -1,6 +1,6 @@
 # HideMe
 
-Win11Debloat is a simple, easy to use and lightweight PowerShell script that can remove pre-installed Windows bloatware apps, disable telemetry and declutter the experience by disabling or removing intrusive interface elements, ads and more. No need to painstakingly go through all the settings yourself or remove apps one by one. Win11Debloat makes the process quick and easy!
+HideMe is a simple, easy to use and lightweight PowerShell script that can remove pre-installed Windows bloatware apps, disable telemetry and declutter the experience by disabling or removing intrusive interface elements, ads and more. No need to painstakingly go through all the settings yourself or remove apps one by one. HideMe makes the process quick and easy!
 
 The script also includes many features that system administrators will enjoy. Such as support for Windows Audit mode, the option to make changes to other Windows users and the ability to run the script without requiring user input during runtime.
 
@@ -50,13 +50,13 @@ Warning
 Great care went into making sure this script does not unintentionally break any OS functionality, but use at your own risk!
 
 Quick method
-Download & run the script automatically via PowerShell. All files related to the script are saved to %temp%/Win11Debloat if you wish to inspect them. The script automatically cleans up the files after execution.
+Download & run the script automatically via PowerShell. All files related to the script are saved to %temp%/HideMe if you wish to inspect them. The script automatically cleans up the files after execution.
 
 Open PowerShell, preferably as an administrator.
 Copy and paste the code below into PowerShell, press enter to run the script:
 & ([scriptblock]::Create((irm "https://debloat.raphi.re/")))
-Wait for the script to automatically download Win11Debloat.
-A new PowerShell window will open showing the Win11Debloat menu. Select either the default or custom mode to continue.
+Wait for the script to automatically download HideMe.
+A new PowerShell window will open showing the HideMe menu. Select either the default or custom mode to continue.
 Carefully read through and follow the on-screen instructions.
 This method supports parameters. To use parameters simply run the script as explained above, but add the parameters at the end with spaces in between. Example:
 
@@ -65,10 +65,10 @@ Traditional method
 Manually download & run the script.
 
 Download the latest version of the script, and extract the .ZIP file to your desired location.
-Navigate to the Win11Debloat folder
+Navigate to the HideMe folder
 Double click the Run.bat file to start the script. NOTE: If the console window immediately closes and nothing happens, try the advanced method below.
 Accept the Windows UAC prompt to run the script as administrator, this is required for the script to function.
-A new PowerShell window will now open showing the Win11Debloat menu. Select either the default or custom mode to continue.
+A new PowerShell window will now open showing the HideMe menu. Select either the default or custom mode to continue.
 Carefully read through and follow the on-screen instructions.
 Advanced method
 Manually download the script & run the script via PowerShell. Recommended for advanced users.
@@ -77,14 +77,14 @@ Download the latest version of the script, and extract the .ZIP file to your des
 Open PowerShell as an administrator.
 Temporarily enable PowerShell execution by entering the following command:
 Set-ExecutionPolicy Unrestricted -Scope Process
-In PowerShell, navigate to the directory where the files were extracted. Example: cd c:\Win11Debloat
+In PowerShell, navigate to the directory where the files were extracted. Example: cd c:\HideMe
 Now run the script by entering the following command:
-.\Win11Debloat.ps1
-The Win11Debloat menu will now open. Select either the default or custom mode to continue.
+.\HideMe.ps1
+The HideMe menu will now open. Select either the default or custom mode to continue.
 Carefully read through and follow the on-screen instructions.
 This method supports parameters. To use parameters simply run the script as explained above, but add the parameters at the end with spaces in between. Example:
 
-.\Win11Debloat.ps1 -RemoveApps -DisableBing -Silent
+.\HideMe.ps1 -RemoveApps -DisableBing -Silent
 Parameters
 The quick and advanced usage methods support switch parameters. A table of all the supported parameters and what they do can be found below.
 
